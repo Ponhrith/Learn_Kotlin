@@ -1,4 +1,5 @@
 fun main() {
     val myCharValue: Char = 'D'
-    println("$myCharValue")
+    val myBooleanValue: Boolean = false
+    println("myCharValue = $myCharValue and myBooleanValue = $myBooleanValue")
 }
