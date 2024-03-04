@@ -11,7 +11,14 @@ fun main() {
 
     val myMaxByteValue: Byte = Byte.MAX_VALUE
     val myMinByteValue: Byte = Byte.MIN_VALUE
+
     println("Byte maximum value is: $myMaxByteValue")
     println("Byte minimum value is: $myMinByteValue")
+
+    val myMaxShortValue: Short = Short.MAX_VALUE
+    val myMinShortValue: Short = Short.MIN_VALUE
+
+    println("Byte maximum value is: $myMaxShortValue")
+    println("Byte minimum value is: $myMinShortValue")
 
 }
