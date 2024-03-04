@@ -26,4 +26,8 @@ fun main() {
     println("result = $result")
 
     println("3 + 3 * 4 = ${(3 + 3) * 4}")
+
+    x = 0
+    println("x = ${x++}")
+    println("x = ${++x}")
 }
