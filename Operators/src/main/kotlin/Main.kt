@@ -24,4 +24,6 @@ fun main() {
 
     result %= 2
     println("result = $result")
+
+    println("3 + 3 * 4 = ${(3 + 3) * 4}")
 }
