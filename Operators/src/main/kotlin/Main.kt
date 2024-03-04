@@ -30,4 +30,7 @@ fun main() {
     x = 0
     println("x = ${x++}")
     println("x = ${++x}")
+
+    println("x = ${x--}")
+    println("x = ${--x}")
 }
