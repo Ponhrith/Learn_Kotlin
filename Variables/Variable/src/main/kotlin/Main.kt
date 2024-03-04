@@ -1,3 +1,4 @@
 fun main() {
-    println("Hello World!")
+    var userName: String = "Pony"
+    println("Hello $userName!")
 }
