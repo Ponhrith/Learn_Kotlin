@@ -42,11 +42,13 @@ fun main() {
 //        println("Still at the same level")
 //    }
 
-    val num1 = -5
+    val num1 = 5
     val num2 = -3
-    val text = if (num1 > 0 || num2 > 0)
-        "This is text 1"
-    else
-        "This is text 2"
-    println("$text")
+    if (num1 > 0 || num2 > 0) {
+        println("This condition is true")
+        println("This condition is true and some text")
+    } else{
+        println("This condition is false")
+        println("This condition is false and some text")
+    }
 }
