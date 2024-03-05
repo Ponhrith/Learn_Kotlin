@@ -34,8 +34,8 @@ fun main() {
     println("x = ${x--}")
     println("x = ${--x}")
 
-    val myNumber = 100
-    if (myNumber > 150){
+    val myNumber = 150
+    if (myNumber >= 150){
         println("Greater than 150")
     } else if(myNumber > 90){
         println("Greater than 90")
